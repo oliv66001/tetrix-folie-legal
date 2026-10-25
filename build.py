@@ -1,4 +1,4 @@
-# Génère le site légal de Tetrix Folie (GitHub Pages) dans toutes les langues.
+# Génère le site légal de Starfuse (GitHub Pages) dans toutes les langues.
 #
 #   python build.py
 #
@@ -12,7 +12,7 @@ from urllib.parse import quote
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 BASE_URL = "https://oliv66001.github.io/tetrix-folie-legal/"
-GAME = "Tetrix Folie"
+GAME = "Starfuse"
 EMAIL = "developpement.solution@gmail.com"
 PUBLISHER = "Développement-Solution — Olivier Pagé"
 ADDRESS = "20 rue Condorcet, 66330 Cabestany, France"
@@ -54,7 +54,7 @@ tout changement affectant les données.</p>
 
 <h2>Données enregistrées par le jeu</h2>
 <p>Le jeu conserve uniquement sur l’appareil : le meilleur score et les réglages (langue, mode de rotation du plateau,
-affichage de la pièce fantôme). Ces données ne sont jamais transmises à l’éditeur.</p>
+affichage de la pièce fantôme, volume de la musique et des bruitages). Ces données ne sont jamais transmises à l’éditeur.</p>
 <p>Le jeu ne demande ni nom, ni adresse e-mail, ni âge, ni localisation, et n’accède ni aux contacts, ni au micro, ni à
 l’appareil photo, ni aux fichiers. Il ne crée pas de compte joueur et ne contient ni messagerie ni fonction en ligne.</p>
 
@@ -167,7 +167,7 @@ player account, shows no ads and offers no purchases. These pages will be update
 
 <h2>Data stored by the game</h2>
 <p>The game stores on the device only: the best score and the settings (language, board rotation mode, ghost piece
-display). This data is never sent to the publisher.</p>
+display, music and sound effects volume). This data is never sent to the publisher.</p>
 <p>The game does not ask for your name, email address, age or location, and does not access your contacts,
 microphone, camera or files. It does not create a player account and has no chat or online feature.</p>
 
@@ -279,7 +279,7 @@ que afecte a los datos.</p>
 
 <h2>Datos guardados por el juego</h2>
 <p>El juego guarda únicamente en el dispositivo: la mejor puntuación y los ajustes (idioma, modo de rotación del
-tablero, pieza fantasma). Estos datos nunca se envían al editor.</p>
+tablero, pieza fantasma, volumen de la música y de los efectos). Estos datos nunca se envían al editor.</p>
 <p>El juego no pide nombre, correo electrónico, edad ni ubicación, y no accede a los contactos, al micrófono, a la cámara
 ni a los archivos. No crea ninguna cuenta de jugador y no tiene chat ni funciones en línea.</p>
 
@@ -395,7 +395,7 @@ modifica che riguardi i dati.</p>
 
 <h2>Dati salvati dal gioco</h2>
 <p>Il gioco salva esclusivamente sul dispositivo: il punteggio migliore e le impostazioni (lingua, modalità di rotazione
-del tabellone, pezzo fantasma). Questi dati non vengono mai inviati all’editore.</p>
+del tabellone, pezzo fantasma, volume della musica e degli effetti). Questi dati non vengono mai inviati all’editore.</p>
 <p>Il gioco non chiede nome, indirizzo e-mail, età o posizione, e non accede a contatti, microfono, fotocamera o file. Non
 crea alcun account giocatore e non ha chat né funzioni online.</p>
 
