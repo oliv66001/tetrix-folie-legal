@@ -30,7 +30,7 @@ LANGS = {
     # ------------------------------------------------------------------ FRANÇAIS
     "fr": {
         "name": "Français",
-        "date": "14 octobre 2026",
+        "date": "26 octobre 2026",
         "updated": "Dernière mise à jour",
         "nav": {"index": "Accueil", "privacy": "Confidentialité",
                 "delete-account": "Suppression du compte et des données", "contact": "Contact et éditeur"},
@@ -42,9 +42,10 @@ LANGS = {
 monde avec sa propre gravité, et le plateau tourne régulièrement pour vous envoyer dans le monde suivant. Les blocs sont
 des verres remplis de liquide dont les couleurs se mélangent.</p>
 <p>Éditeur : {PUBLISHER}, France.</p>
-<p>La version actuelle enregistre le meilleur score et les réglages <strong>uniquement sur l’appareil</strong>. Elle ne
-crée pas de compte joueur, n’affiche aucune publicité et ne propose aucun achat. Ces pages seront mises à jour avant
-tout changement affectant les données.</p>
+<p>Le jeu enregistre le meilleur score, la progression de la campagne et les réglages <strong>uniquement sur
+l’appareil</strong>. Il n’a pas de compte propre à l’éditeur, n’affiche aucune publicité et ne propose aucun achat. S’il
+est connecté à Google Play Jeux, les réussites et le meilleur score du mode infini sont envoyés à Google (voir la
+politique de confidentialité). Ces pages seront mises à jour avant tout changement affectant les données.</p>
 """,
         "privacy": lambda: f"""
 <h2>Responsable et contact</h2>
@@ -53,10 +54,22 @@ tout changement affectant les données.</p>
 <a href="{mail(GAME + ' - Données personnelles')}">{EMAIL}</a>.</p>
 
 <h2>Données enregistrées par le jeu</h2>
-<p>Le jeu conserve uniquement sur l’appareil : le meilleur score et les réglages (langue, mode de rotation du plateau,
-affichage de la pièce fantôme, volume de la musique et des bruitages). Ces données ne sont jamais transmises à l’éditeur.</p>
+<p>Le jeu conserve uniquement sur l’appareil : le meilleur score, la progression de la campagne (missions réussies et
+étoiles obtenues) et les réglages (langue, mode de rotation du plateau, affichage de la pièce fantôme, volume de la
+musique et des bruitages). Ces données ne sont jamais transmises à l’éditeur.</p>
 <p>Le jeu ne demande ni nom, ni adresse e-mail, ni âge, ni localisation, et n’accède ni aux contacts, ni au micro, ni à
-l’appareil photo, ni aux fichiers. Il ne crée pas de compte joueur et ne contient ni messagerie ni fonction en ligne.</p>
+l’appareil photo, ni aux fichiers. Il ne contient ni messagerie ni publicité.</p>
+
+<h2>Google Play Jeux (réussites et classement)</h2>
+<p>Au lancement, le jeu tente de se connecter automatiquement à <strong>Google Play Jeux</strong>, le service de Google
+qui gère les réussites et les classements. Si vous êtes connecté, le jeu envoie à Google les réussites débloquées et le
+meilleur score du mode infini ; Google les associe à votre profil Play Jeux (pseudo et avatar) et affiche le classement
+aux autres joueurs selon vos paramètres de visibilité Play Jeux. L’éditeur ne reçoit pas votre adresse e-mail et ne
+stocke aucune de ces données sur ses propres serveurs.</p>
+<p>Ce traitement est réalisé par Google LLC / Google Ireland Limited selon sa propre
+<a href="https://policies.google.com/privacy">politique de confidentialité</a>. Vous pouvez refuser la connexion, gérer
+la visibilité de votre profil ou supprimer vos données Play Jeux depuis l’application Google Play Jeux ou les paramètres
+de votre compte Google ; le jeu fonctionne entièrement sans connexion.</p>
 
 <h2>Publicité, achats et statistiques</h2>
 <p>La version actuelle <strong>n’affiche aucune publicité</strong>, ne propose aucun achat intégré et n’intègre aucun
@@ -88,7 +101,7 @@ limitation, l’opposition ou la portabilité lorsque le droit applicable le pr�
 également introduire une réclamation auprès de la <a href="https://www.cnil.fr/fr/plaintes">CNIL</a>.</p>
 
 <h2>Sécurité</h2>
-<p>Le jeu limite ses données au meilleur score et aux réglages enregistrés sur l’appareil. Les messages d’assistance ne
+<p>Le jeu limite ses données à celles décrites ci-dessus. Les messages d’assistance ne
 sont accessibles qu’à l’éditeur. Aucun système n’est totalement exempt de risque ; ne transmettez pas de données
 sensibles inutiles.</p>
 
@@ -102,11 +115,15 @@ jeu ou sur la fiche Google Play.</p>
 <strong>{PUBLISHER}</strong>.</p>
 
 <h2>Compte joueur</h2>
-<p>{GAME} <strong>ne crée aucun compte joueur</strong> : il n’y a ni identifiant, ni mot de passe, ni profil stocké sur un
-serveur de l’éditeur. Il n’y a donc pas de compte à supprimer côté éditeur.</p>
+<p>{GAME} <strong>ne crée aucun compte chez l’éditeur</strong> : il n’y a ni identifiant, ni mot de passe, ni profil
+stocké sur un serveur de l’éditeur. Il n’y a donc pas de compte à supprimer côté éditeur.</p>
+<p>Si vous utilisez <strong>Google Play Jeux</strong>, vos réussites et votre score au classement sont rattachés à votre
+profil Play Jeux, géré par Google. Pour les supprimer : application <strong>Google Play Jeux</strong> →
+<strong>Paramètres</strong> → supprimer le compte et les données Play Jeux, ou depuis
+<a href="https://myaccount.google.com/data-and-privacy">les paramètres de votre compte Google</a>.</p>
 
 <h2>Supprimer les données de jeu</h2>
-<p>Le meilleur score et les réglages sont enregistrés uniquement sur l’appareil. Pour les effacer :</p>
+<p>Le meilleur score, la progression de la campagne et les réglages sont enregistrés uniquement sur l’appareil. Pour les effacer :</p>
 <ul>
 <li><strong>Dans le jeu :</strong> écran d’accueil → <strong>Paramètres</strong> → <strong>Effacer mes données</strong>,
 puis confirmez.</li>
@@ -146,7 +163,7 @@ San Francisco, CA 94107, États-Unis.</p>
     # ------------------------------------------------------------------ ENGLISH
     "en": {
         "name": "English",
-        "date": "October 14, 2026",
+        "date": "October 26, 2026",
         "updated": "Last updated",
         "nav": {"index": "Home", "privacy": "Privacy", "delete-account": "Account and data deletion",
                 "contact": "Contact and publisher"},
@@ -157,8 +174,10 @@ San Francisco, CA 94107, États-Unis.</p>
 gravity, and the board turns regularly to send you to the next world. The blocks are glasses filled with liquid whose
 colours mix together.</p>
 <p>Publisher: {PUBLISHER}, France.</p>
-<p>The current version stores the best score and settings <strong>on the device only</strong>. It does not create a
-player account, shows no ads and offers no purchases. These pages will be updated before any change affecting data.</p>
+<p>The game stores the best score, campaign progress and settings <strong>on the device only</strong>. It has no
+publisher account, shows no ads and offers no purchases. If you are signed in to Google Play Games, achievements and the
+endless-mode best score are sent to Google (see the privacy policy). These pages will be updated before any change
+affecting data.</p>
 """,
         "privacy": lambda: f"""
 <h2>Data controller and contact</h2>
@@ -166,10 +185,22 @@ player account, shows no ads and offers no purchases. These pages will be update
 <p>For any question about data: <a href="{mail(GAME + ' - Personal data')}">{EMAIL}</a>.</p>
 
 <h2>Data stored by the game</h2>
-<p>The game stores on the device only: the best score and the settings (language, board rotation mode, ghost piece
-display, music and sound effects volume). This data is never sent to the publisher.</p>
-<p>The game does not ask for your name, email address, age or location, and does not access your contacts,
-microphone, camera or files. It does not create a player account and has no chat or online feature.</p>
+<p>The game stores on the device only: the best score, campaign progress (completed missions and stars earned) and the
+settings (language, board rotation mode, ghost piece display, music and sound effects volume). This data is never sent
+to the publisher.</p>
+<p>The game does not ask for your name, email address, age or location, and does not access contacts, microphone,
+camera or files. It has no chat and no ads.</p>
+
+<h2>Google Play Games (achievements and leaderboard)</h2>
+<p>At launch, the game tries to sign you in automatically to <strong>Google Play Games</strong>, Google’s service for
+achievements and leaderboards. If you are signed in, the game sends Google the achievements you unlock and your
+endless-mode best score; Google links them to your Play Games profile (gamer name and avatar) and shows the leaderboard
+to other players according to your Play Games visibility settings. The publisher does not receive your email address
+and stores none of this data on its own servers.</p>
+<p>This processing is carried out by Google LLC / Google Ireland Limited under its own
+<a href="https://policies.google.com/privacy">privacy policy</a>. You can decline sign-in, manage your profile
+visibility or delete your Play Games data from the Google Play Games app or your Google Account settings; the game works
+fully without signing in.</p>
 
 <h2>Advertising, purchases and analytics</h2>
 <p>The current version <strong>shows no ads</strong>, offers no in-app purchases and includes no analytics or tracking
@@ -200,7 +231,7 @@ above. You can also lodge a complaint with the French data protection authority,
 <a href="https://www.cnil.fr/en/complaints">CNIL</a>, or with your local authority.</p>
 
 <h2>Security</h2>
-<p>The game limits its data to the best score and settings stored on the device. Support messages are accessible only to
+<p>The game limits its data to what is described above. Support messages are accessible only to
 the publisher. No system is completely risk-free; do not send unnecessary sensitive data.</p>
 
 <h2>Changes</h2>
@@ -212,11 +243,15 @@ Play listing.</p>
 <p>This page explains how to delete the data of <strong>{GAME}</strong>, published by <strong>{PUBLISHER}</strong>.</p>
 
 <h2>Player account</h2>
-<p>{GAME} <strong>does not create any player account</strong>: there is no username, password or profile stored on a
-publisher server. There is therefore no account to delete on the publisher’s side.</p>
+<p>{GAME} <strong>does not create any account with the publisher</strong>: there is no username, password or profile
+stored on a publisher server. There is therefore no account to delete on the publisher’s side.</p>
+<p>If you use <strong>Google Play Games</strong>, your achievements and leaderboard score are linked to your Play Games
+profile, managed by Google. To delete them: <strong>Google Play Games</strong> app → <strong>Settings</strong> → delete
+your Play Games account and data, or use <a href="https://myaccount.google.com/data-and-privacy">your Google Account
+settings</a>.</p>
 
 <h2>Delete game data</h2>
-<p>The best score and settings are stored on the device only. To erase them:</p>
+<p>The best score, campaign progress and settings are stored on the device only. To erase them:</p>
 <ul>
 <li><strong>In the game:</strong> home screen → <strong>Settings</strong> → <strong>Erase my data</strong>, then
 confirm.</li>
@@ -256,7 +291,7 @@ CA 94107, United States.</p>
     # ------------------------------------------------------------------ ESPAÑOL
     "es": {
         "name": "Español",
-        "date": "14 de octubre de 2026",
+        "date": "26 de octubre de 2026",
         "updated": "Última actualización",
         "nav": {"index": "Inicio", "privacy": "Privacidad", "delete-account": "Eliminación de la cuenta y los datos",
                 "contact": "Contacto y editor"},
@@ -268,9 +303,10 @@ CA 94107, United States.</p>
 propia gravedad, y el tablero gira con regularidad para enviarte al mundo siguiente. Los bloques son vasos llenos de
 líquido cuyos colores se mezclan.</p>
 <p>Editor: {PUBLISHER}, Francia.</p>
-<p>La versión actual guarda la mejor puntuación y los ajustes <strong>solo en el dispositivo</strong>. No crea ninguna
-cuenta de jugador, no muestra publicidad y no ofrece compras. Estas páginas se actualizarán antes de cualquier cambio
-que afecte a los datos.</p>
+<p>El juego guarda la mejor puntuación, el progreso de la campaña y los ajustes <strong>solo en el dispositivo</strong>.
+No tiene cuenta propia del editor, no muestra publicidad y no ofrece compras. Si has iniciado sesión en Google Play
+Juegos, los logros y la mejor puntuación del modo infinito se envían a Google (consulta la política de privacidad).
+Estas páginas se actualizarán antes de cualquier cambio que afecte a los datos.</p>
 """,
         "privacy": lambda: f"""
 <h2>Responsable y contacto</h2>
@@ -278,10 +314,22 @@ que afecte a los datos.</p>
 <p>Para cualquier pregunta sobre los datos: <a href="{mail(GAME + ' - Datos personales')}">{EMAIL}</a>.</p>
 
 <h2>Datos guardados por el juego</h2>
-<p>El juego guarda únicamente en el dispositivo: la mejor puntuación y los ajustes (idioma, modo de rotación del
-tablero, pieza fantasma, volumen de la música y de los efectos). Estos datos nunca se envían al editor.</p>
+<p>El juego guarda únicamente en el dispositivo: la mejor puntuación, el progreso de la campaña (misiones superadas y
+estrellas obtenidas) y los ajustes (idioma, modo de rotación del tablero, pieza fantasma, volumen de la música y de los
+efectos). Estos datos nunca se envían al editor.</p>
 <p>El juego no pide nombre, correo electrónico, edad ni ubicación, y no accede a los contactos, al micrófono, a la cámara
-ni a los archivos. No crea ninguna cuenta de jugador y no tiene chat ni funciones en línea.</p>
+ni a los archivos. No tiene chat ni publicidad.</p>
+
+<h2>Google Play Juegos (logros y clasificación)</h2>
+<p>Al iniciarse, el juego intenta conectarte automáticamente a <strong>Google Play Juegos</strong>, el servicio de Google
+para logros y clasificaciones. Si has iniciado sesión, el juego envía a Google los logros que desbloqueas y tu mejor
+puntuación del modo infinito; Google los asocia a tu perfil de Play Juegos (nombre de jugador y avatar) y muestra la
+clasificación a otros jugadores según tus ajustes de visibilidad. El editor no recibe tu correo electrónico y no guarda
+ninguno de estos datos en sus propios servidores.</p>
+<p>Este tratamiento lo realiza Google LLC / Google Ireland Limited según su propia
+<a href="https://policies.google.com/privacy">política de privacidad</a>. Puedes rechazar la conexión, gestionar la
+visibilidad de tu perfil o eliminar tus datos de Play Juegos desde la aplicación Google Play Juegos o los ajustes de tu
+cuenta de Google; el juego funciona por completo sin conexión.</p>
 
 <h2>Publicidad, compras y estadísticas</h2>
 <p>La versión actual <strong>no muestra publicidad</strong>, no ofrece compras integradas y no incluye ninguna
@@ -315,7 +363,7 @@ reclamación ante la autoridad francesa de protección de datos, la <a href="htt
 o ante la autoridad de tu país.</p>
 
 <h2>Seguridad</h2>
-<p>El juego limita sus datos a la mejor puntuación y a los ajustes guardados en el dispositivo. Los mensajes de
+<p>El juego limita sus datos a los descritos más arriba. Los mensajes de
 asistencia solo son accesibles para el editor. Ningún sistema está totalmente libre de riesgos; no envíes datos
 sensibles innecesarios.</p>
 
@@ -328,11 +376,15 @@ Google Play.</p>
 <p>Esta página explica cómo eliminar los datos de <strong>{GAME}</strong>, publicado por <strong>{PUBLISHER}</strong>.</p>
 
 <h2>Cuenta de jugador</h2>
-<p>{GAME} <strong>no crea ninguna cuenta de jugador</strong>: no hay identificador, contraseña ni perfil guardado en un
-servidor del editor. Por lo tanto, no hay ninguna cuenta que eliminar por parte del editor.</p>
+<p>{GAME} <strong>no crea ninguna cuenta con el editor</strong>: no hay identificador, contraseña ni perfil guardado en
+un servidor del editor. Por lo tanto, no hay ninguna cuenta que eliminar por parte del editor.</p>
+<p>Si usas <strong>Google Play Juegos</strong>, tus logros y tu puntuación en la clasificación están vinculados a tu
+perfil de Play Juegos, gestionado por Google. Para eliminarlos: aplicación <strong>Google Play Juegos</strong> →
+<strong>Ajustes</strong> → eliminar la cuenta y los datos de Play Juegos, o desde
+<a href="https://myaccount.google.com/data-and-privacy">los ajustes de tu cuenta de Google</a>.</p>
 
 <h2>Eliminar los datos del juego</h2>
-<p>La mejor puntuación y los ajustes se guardan únicamente en el dispositivo. Para borrarlos:</p>
+<p>La mejor puntuación, el progreso de la campaña y los ajustes se guardan únicamente en el dispositivo. Para borrarlos:</p>
 <ul>
 <li><strong>En el juego:</strong> pantalla de inicio → <strong>Ajustes</strong> → <strong>Borrar mis datos</strong> y
 confirma.</li>
@@ -372,7 +424,7 @@ San Francisco, CA 94107, Estados Unidos.</p>
     # ------------------------------------------------------------------ ITALIANO
     "it": {
         "name": "Italiano",
-        "date": "14 ottobre 2026",
+        "date": "26 ottobre 2026",
         "updated": "Ultimo aggiornamento",
         "nav": {"index": "Home", "privacy": "Privacy", "delete-account": "Eliminazione dell’account e dei dati",
                 "contact": "Contatti ed editore"},
@@ -384,9 +436,11 @@ San Francisco, CA 94107, Estados Unidos.</p>
 propria gravità, e il tabellone ruota regolarmente per mandarti nel mondo successivo. I blocchi sono bicchieri pieni di
 liquido i cui colori si mescolano.</p>
 <p>Editore: {PUBLISHER}, Francia.</p>
-<p>La versione attuale salva il punteggio migliore e le impostazioni <strong>solo sul dispositivo</strong>. Non crea
-alcun account giocatore, non mostra pubblicità e non offre acquisti. Queste pagine saranno aggiornate prima di qualsiasi
-modifica che riguardi i dati.</p>
+<p>Il gioco salva il punteggio migliore, i progressi della campagna e le impostazioni <strong>solo sul
+dispositivo</strong>. Non ha un account proprio dell’editore, non mostra pubblicità e non offre acquisti. Se hai
+effettuato l’accesso a Google Play Giochi, gli obiettivi e il punteggio migliore della modalità infinita vengono inviati
+a Google (vedi l’informativa sulla privacy). Queste pagine saranno aggiornate prima di qualsiasi modifica che riguardi i
+dati.</p>
 """,
         "privacy": lambda: f"""
 <h2>Titolare e contatti</h2>
@@ -394,10 +448,22 @@ modifica che riguardi i dati.</p>
 <p>Per qualsiasi domanda sui dati: <a href="{mail(GAME + ' - Dati personali')}">{EMAIL}</a>.</p>
 
 <h2>Dati salvati dal gioco</h2>
-<p>Il gioco salva esclusivamente sul dispositivo: il punteggio migliore e le impostazioni (lingua, modalità di rotazione
-del tabellone, pezzo fantasma, volume della musica e degli effetti). Questi dati non vengono mai inviati all’editore.</p>
-<p>Il gioco non chiede nome, indirizzo e-mail, età o posizione, e non accede a contatti, microfono, fotocamera o file. Non
-crea alcun account giocatore e non ha chat né funzioni online.</p>
+<p>Il gioco salva esclusivamente sul dispositivo: il punteggio migliore, i progressi della campagna (missioni completate
+e stelle ottenute) e le impostazioni (lingua, modalità di rotazione del tabellone, pezzo fantasma, volume della musica e
+degli effetti). Questi dati non vengono mai inviati all’editore.</p>
+<p>Il gioco non chiede nome, indirizzo e-mail, età o posizione, e non accede a contatti, microfono, fotocamera o file.
+Non ha chat né pubblicità.</p>
+
+<h2>Google Play Giochi (obiettivi e classifica)</h2>
+<p>All’avvio, il gioco prova a collegarti automaticamente a <strong>Google Play Giochi</strong>, il servizio di Google
+per obiettivi e classifiche. Se hai effettuato l’accesso, il gioco invia a Google gli obiettivi sbloccati e il punteggio
+migliore della modalità infinita; Google li associa al tuo profilo Play Giochi (nome giocatore e avatar) e mostra la
+classifica agli altri giocatori secondo le tue impostazioni di visibilità. L’editore non riceve il tuo indirizzo e-mail
+e non conserva nessuno di questi dati sui propri server.</p>
+<p>Questo trattamento è effettuato da Google LLC / Google Ireland Limited secondo la propria
+<a href="https://policies.google.com/privacy">informativa sulla privacy</a>. Puoi rifiutare l’accesso, gestire la
+visibilità del profilo o eliminare i tuoi dati Play Giochi dall’app Google Play Giochi o dalle impostazioni del tuo
+account Google; il gioco funziona completamente anche senza accesso.</p>
 
 <h2>Pubblicità, acquisti e statistiche</h2>
 <p>La versione attuale <strong>non mostra pubblicità</strong>, non offre acquisti in-app e non include strumenti di
@@ -430,7 +496,7 @@ protezione dei dati, la <a href="https://www.cnil.fr/en/complaints">CNIL</a>, o 
 il Garante per la protezione dei dati personali).</p>
 
 <h2>Sicurezza</h2>
-<p>Il gioco limita i propri dati al punteggio migliore e alle impostazioni salvate sul dispositivo. I messaggi di
+<p>Il gioco limita i propri dati a quelli descritti sopra. I messaggi di
 assistenza sono accessibili solo all’editore. Nessun sistema è totalmente privo di rischi; non inviare dati sensibili non
 necessari.</p>
 
@@ -443,11 +509,15 @@ Google Play.</p>
 <p>Questa pagina spiega come eliminare i dati di <strong>{GAME}</strong>, pubblicato da <strong>{PUBLISHER}</strong>.</p>
 
 <h2>Account giocatore</h2>
-<p>{GAME} <strong>non crea alcun account giocatore</strong>: non ci sono nome utente, password o profilo salvati su un
-server dell’editore. Non c’è quindi alcun account da eliminare presso l’editore.</p>
+<p>{GAME} <strong>non crea alcun account presso l’editore</strong>: non ci sono nome utente, password o profilo salvati
+su un server dell’editore. Non c’è quindi alcun account da eliminare presso l’editore.</p>
+<p>Se usi <strong>Google Play Giochi</strong>, i tuoi obiettivi e il punteggio in classifica sono collegati al tuo
+profilo Play Giochi, gestito da Google. Per eliminarli: app <strong>Google Play Giochi</strong> →
+<strong>Impostazioni</strong> → elimina l’account e i dati Play Giochi, oppure dalle
+<a href="https://myaccount.google.com/data-and-privacy">impostazioni del tuo account Google</a>.</p>
 
 <h2>Eliminare i dati di gioco</h2>
-<p>Il punteggio migliore e le impostazioni sono salvati solo sul dispositivo. Per cancellarli:</p>
+<p>Il punteggio migliore, i progressi della campagna e le impostazioni sono salvati solo sul dispositivo. Per cancellarli:</p>
 <ul>
 <li><strong>Nel gioco:</strong> schermata iniziale → <strong>Impostazioni</strong> → <strong>Cancella i miei
 dati</strong>, poi conferma.</li>
