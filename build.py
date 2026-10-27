@@ -30,7 +30,7 @@ LANGS = {
     # ------------------------------------------------------------------ FRANÇAIS
     "fr": {
         "name": "Français",
-        "date": "26 octobre 2026",
+        "date": "27 octobre 2026",
         "updated": "Dernière mise à jour",
         "nav": {"index": "Accueil", "privacy": "Confidentialité",
                 "delete-account": "Suppression du compte et des données", "contact": "Contact et éditeur"},
@@ -43,7 +43,7 @@ monde avec sa propre gravité, et le plateau tourne régulièrement pour vous en
 des verres remplis de liquide dont les couleurs se mélangent.</p>
 <p>Éditeur : {PUBLISHER}, France.</p>
 <p>Le jeu enregistre le meilleur score, la progression de la campagne et les réglages <strong>uniquement sur
-l’appareil</strong>. Il n’a pas de compte propre à l’éditeur, n’affiche aucune publicité et ne propose aucun achat. S’il
+l’appareil</strong>. Il n’a pas de compte propre à l’éditeur. Il affiche des publicités Google AdMob et propose un achat intégré pour retirer les publicités plein écran. S’il
 est connecté à Google Play Jeux, les réussites et le meilleur score du mode infini sont envoyés à Google (voir la
 politique de confidentialité). Ces pages seront mises à jour avant tout changement affectant les données.</p>
 """,
@@ -58,7 +58,7 @@ politique de confidentialité). Ces pages seront mises à jour avant tout change
 étoiles obtenues) et les réglages (langue, mode de rotation du plateau, affichage de la pièce fantôme, volume de la
 musique et des bruitages). Ces données ne sont jamais transmises à l’éditeur.</p>
 <p>Le jeu ne demande ni nom, ni adresse e-mail, ni âge, ni localisation, et n’accède ni aux contacts, ni au micro, ni à
-l’appareil photo, ni aux fichiers. Il ne contient ni messagerie ni publicité.</p>
+l’appareil photo, ni aux fichiers. Il ne contient pas de messagerie.</p>
 
 <h2>Google Play Jeux (réussites et classement)</h2>
 <p>Au lancement, le jeu tente de se connecter automatiquement à <strong>Google Play Jeux</strong>, le service de Google
@@ -72,9 +72,20 @@ la visibilité de votre profil ou supprimer vos données Play Jeux depuis l’ap
 de votre compte Google ; le jeu fonctionne entièrement sans connexion.</p>
 
 <h2>Publicité, achats et statistiques</h2>
-<p>La version actuelle <strong>n’affiche aucune publicité</strong>, ne propose aucun achat intégré et n’intègre aucun
-outil de statistiques ou de suivi. Si l’un de ces éléments est ajouté, cette politique et la section « Sécurité des
-données » de Google Play seront mises à jour avant, avec le nom du prestataire et le lien vers sa propre politique.</p>
+<p><strong>Publicités.</strong> Le jeu affiche des publicités fournies par <strong>Google AdMob</strong> (Google LLC /
+Google Ireland Limited) : des vidéos récompensées que vous choisissez de regarder (continuer une partie, doubler des
+points, partir avec un bouclier) et, au plus une fois toutes les quelques parties, une publicité plein écran entre deux
+parties. Pour afficher et mesurer ces publicités, AdMob traite des données de l’appareil : identifiant publicitaire,
+adresse IP, informations techniques sur l’appareil et interactions avec les annonces, selon la
+<a href="https://policies.google.com/technologies/ads">politique de Google sur la publicité</a>.</p>
+<p><strong>Consentement.</strong> Dans l’Espace économique européen, au Royaume-Uni et en Suisse, un formulaire de
+consentement certifié (Google UMP) s’affiche avant toute publicité. Vous pouvez refuser les publicités personnalisées ;
+des publicités non personnalisées peuvent alors s’afficher. Vous pouvez modifier votre choix à tout moment dans le jeu :
+<strong>Paramètres → Choix pubs (RGPD)</strong>. Vous pouvez aussi réinitialiser ou supprimer l’identifiant publicitaire
+dans les paramètres de votre téléphone (Google → Annonces).</p>
+<p><strong>Achat intégré.</strong> L’achat « Supprimer les pubs » est traité par Google Play. L’éditeur ne reçoit ni vos
+coordonnées bancaires ni votre adresse e-mail ; le jeu enregistre seulement sur l’appareil que l’achat a été fait.</p>
+<p>Le jeu n’intègre aucun autre outil de statistiques ou de suivi.</p>
 
 <h2>Liens externes</h2>
 <p>Les liens du jeu vers ces pages s’ouvrent dans votre navigateur. GitHub Pages, qui héberge ces pages, peut
@@ -163,7 +174,7 @@ San Francisco, CA 94107, États-Unis.</p>
     # ------------------------------------------------------------------ ENGLISH
     "en": {
         "name": "English",
-        "date": "October 26, 2026",
+        "date": "October 27, 2026",
         "updated": "Last updated",
         "nav": {"index": "Home", "privacy": "Privacy", "delete-account": "Account and data deletion",
                 "contact": "Contact and publisher"},
@@ -174,8 +185,7 @@ San Francisco, CA 94107, États-Unis.</p>
 gravity, and the board turns regularly to send you to the next world. The blocks are glasses filled with liquid whose
 colours mix together.</p>
 <p>Publisher: {PUBLISHER}, France.</p>
-<p>The game stores the best score, campaign progress and settings <strong>on the device only</strong>. It has no
-publisher account, shows no ads and offers no purchases. If you are signed in to Google Play Games, achievements and the
+<p>The game stores the best score, campaign progress and settings <strong>on the device only</strong>. It has no publisher account. It shows Google AdMob ads and offers an in-app purchase to remove full-screen ads. If you are signed in to Google Play Games, achievements and the
 endless-mode best score are sent to Google (see the privacy policy). These pages will be updated before any change
 affecting data.</p>
 """,
@@ -189,7 +199,7 @@ affecting data.</p>
 settings (language, board rotation mode, ghost piece display, music and sound effects volume). This data is never sent
 to the publisher.</p>
 <p>The game does not ask for your name, email address, age or location, and does not access contacts, microphone,
-camera or files. It has no chat and no ads.</p>
+camera or files. It has no chat.</p>
 
 <h2>Google Play Games (achievements and leaderboard)</h2>
 <p>At launch, the game tries to sign you in automatically to <strong>Google Play Games</strong>, Google’s service for
@@ -203,9 +213,18 @@ visibility or delete your Play Games data from the Google Play Games app or your
 fully without signing in.</p>
 
 <h2>Advertising, purchases and analytics</h2>
-<p>The current version <strong>shows no ads</strong>, offers no in-app purchases and includes no analytics or tracking
-tool. If any of these is added, this policy and the Google Play “Data safety” section will be updated beforehand, with
-the provider’s name and a link to its own policy.</p>
+<p><strong>Ads.</strong> The game shows ads provided by <strong>Google AdMob</strong> (Google LLC / Google Ireland
+Limited): rewarded videos that you choose to watch (continue a game, double points, start with a shield) and, at most
+once every few games, a full-screen ad between two games. To serve and measure these ads, AdMob processes device data:
+advertising ID, IP address, technical device information and ad interactions, under
+<a href="https://policies.google.com/technologies/ads">Google’s advertising policy</a>.</p>
+<p><strong>Consent.</strong> In the European Economic Area, the United Kingdom and Switzerland, a certified consent form
+(Google UMP) is shown before any ad. You can refuse personalised ads; non-personalised ads may then be shown. You can
+change your choice at any time in the game: <strong>Settings → Ad privacy choices</strong>. You can also reset or delete
+your advertising ID in your phone settings (Google → Ads).</p>
+<p><strong>In-app purchase.</strong> The “Remove ads” purchase is processed by Google Play. The publisher receives
+neither your payment details nor your email address; the game only stores on the device that the purchase was made.</p>
+<p>The game includes no other analytics or tracking tool.</p>
 
 <h2>External links</h2>
 <p>Links from the game to these pages open in your browser. GitHub Pages, which hosts these pages, may record technical
@@ -291,7 +310,7 @@ CA 94107, United States.</p>
     # ------------------------------------------------------------------ ESPAÑOL
     "es": {
         "name": "Español",
-        "date": "26 de octubre de 2026",
+        "date": "27 de octubre de 2026",
         "updated": "Última actualización",
         "nav": {"index": "Inicio", "privacy": "Privacidad", "delete-account": "Eliminación de la cuenta y los datos",
                 "contact": "Contacto y editor"},
@@ -304,7 +323,7 @@ propia gravedad, y el tablero gira con regularidad para enviarte al mundo siguie
 líquido cuyos colores se mezclan.</p>
 <p>Editor: {PUBLISHER}, Francia.</p>
 <p>El juego guarda la mejor puntuación, el progreso de la campaña y los ajustes <strong>solo en el dispositivo</strong>.
-No tiene cuenta propia del editor, no muestra publicidad y no ofrece compras. Si has iniciado sesión en Google Play
+No tiene cuenta propia del editor. Muestra anuncios de Google AdMob y ofrece una compra integrada para quitar los anuncios a pantalla completa. Si has iniciado sesión en Google Play
 Juegos, los logros y la mejor puntuación del modo infinito se envían a Google (consulta la política de privacidad).
 Estas páginas se actualizarán antes de cualquier cambio que afecte a los datos.</p>
 """,
@@ -318,7 +337,7 @@ Estas páginas se actualizarán antes de cualquier cambio que afecte a los datos
 estrellas obtenidas) y los ajustes (idioma, modo de rotación del tablero, pieza fantasma, volumen de la música y de los
 efectos). Estos datos nunca se envían al editor.</p>
 <p>El juego no pide nombre, correo electrónico, edad ni ubicación, y no accede a los contactos, al micrófono, a la cámara
-ni a los archivos. No tiene chat ni publicidad.</p>
+ni a los archivos. No tiene chat.</p>
 
 <h2>Google Play Juegos (logros y clasificación)</h2>
 <p>Al iniciarse, el juego intenta conectarte automáticamente a <strong>Google Play Juegos</strong>, el servicio de Google
@@ -332,10 +351,20 @@ visibilidad de tu perfil o eliminar tus datos de Play Juegos desde la aplicació
 cuenta de Google; el juego funciona por completo sin conexión.</p>
 
 <h2>Publicidad, compras y estadísticas</h2>
-<p>La versión actual <strong>no muestra publicidad</strong>, no ofrece compras integradas y no incluye ninguna
-herramienta de estadísticas o seguimiento. Si se añade alguno de estos elementos, esta política y la sección
-«Seguridad de los datos» de Google Play se actualizarán antes, con el nombre del proveedor y un enlace a su propia
-política.</p>
+<p><strong>Anuncios.</strong> El juego muestra anuncios de <strong>Google AdMob</strong> (Google LLC / Google Ireland
+Limited): vídeos recompensados que eliges ver (continuar una partida, duplicar puntos, empezar con un escudo) y, como
+mucho una vez cada pocas partidas, un anuncio a pantalla completa entre dos partidas. Para mostrar y medir estos
+anuncios, AdMob trata datos del dispositivo: identificador de publicidad, dirección IP, información técnica del
+dispositivo e interacciones con los anuncios, según la
+<a href="https://policies.google.com/technologies/ads">política publicitaria de Google</a>.</p>
+<p><strong>Consentimiento.</strong> En el Espacio Económico Europeo, el Reino Unido y Suiza se muestra un formulario de
+consentimiento certificado (Google UMP) antes de cualquier anuncio. Puedes rechazar los anuncios personalizados; en ese
+caso pueden mostrarse anuncios no personalizados. Puedes cambiar tu elección en cualquier momento en el juego:
+<strong>Ajustes → Opciones de privacidad</strong>. También puedes restablecer o eliminar el identificador de
+publicidad en los ajustes del teléfono (Google → Anuncios).</p>
+<p><strong>Compra integrada.</strong> La compra «Quitar anuncios» la gestiona Google Play. El editor no recibe tus datos
+bancarios ni tu correo electrónico; el juego solo guarda en el dispositivo que la compra se ha realizado.</p>
+<p>El juego no incluye ninguna otra herramienta de estadísticas o seguimiento.</p>
 
 <h2>Enlaces externos</h2>
 <p>Los enlaces del juego a estas páginas se abren en tu navegador. GitHub Pages, que aloja estas páginas, puede registrar
@@ -424,7 +453,7 @@ San Francisco, CA 94107, Estados Unidos.</p>
     # ------------------------------------------------------------------ ITALIANO
     "it": {
         "name": "Italiano",
-        "date": "26 ottobre 2026",
+        "date": "27 ottobre 2026",
         "updated": "Ultimo aggiornamento",
         "nav": {"index": "Home", "privacy": "Privacy", "delete-account": "Eliminazione dell’account e dei dati",
                 "contact": "Contatti ed editore"},
@@ -437,7 +466,7 @@ propria gravità, e il tabellone ruota regolarmente per mandarti nel mondo succe
 liquido i cui colori si mescolano.</p>
 <p>Editore: {PUBLISHER}, Francia.</p>
 <p>Il gioco salva il punteggio migliore, i progressi della campagna e le impostazioni <strong>solo sul
-dispositivo</strong>. Non ha un account proprio dell’editore, non mostra pubblicità e non offre acquisti. Se hai
+dispositivo</strong>. Non ha un account proprio dell’editore. Mostra annunci Google AdMob e offre un acquisto in-app per rimuovere gli annunci a schermo intero. Se hai
 effettuato l’accesso a Google Play Giochi, gli obiettivi e il punteggio migliore della modalità infinita vengono inviati
 a Google (vedi l’informativa sulla privacy). Queste pagine saranno aggiornate prima di qualsiasi modifica che riguardi i
 dati.</p>
@@ -452,7 +481,7 @@ dati.</p>
 e stelle ottenute) e le impostazioni (lingua, modalità di rotazione del tabellone, pezzo fantasma, volume della musica e
 degli effetti). Questi dati non vengono mai inviati all’editore.</p>
 <p>Il gioco non chiede nome, indirizzo e-mail, età o posizione, e non accede a contatti, microfono, fotocamera o file.
-Non ha chat né pubblicità.</p>
+Non ha chat.</p>
 
 <h2>Google Play Giochi (obiettivi e classifica)</h2>
 <p>All’avvio, il gioco prova a collegarti automaticamente a <strong>Google Play Giochi</strong>, il servizio di Google
@@ -466,9 +495,20 @@ visibilità del profilo o eliminare i tuoi dati Play Giochi dall’app Google Pl
 account Google; il gioco funziona completamente anche senza accesso.</p>
 
 <h2>Pubblicità, acquisti e statistiche</h2>
-<p>La versione attuale <strong>non mostra pubblicità</strong>, non offre acquisti in-app e non include strumenti di
-statistica o tracciamento. Se uno di questi elementi verrà aggiunto, questa informativa e la sezione «Sicurezza dei
-dati» di Google Play saranno aggiornate prima, con il nome del fornitore e un link alla sua informativa.</p>
+<p><strong>Annunci.</strong> Il gioco mostra annunci forniti da <strong>Google AdMob</strong> (Google LLC / Google
+Ireland Limited): video con premio che scegli di guardare (continuare una partita, raddoppiare i punti, partire con uno
+scudo) e, al massimo una volta ogni poche partite, un annuncio a schermo intero tra due partite. Per mostrare e misurare
+questi annunci, AdMob tratta dati del dispositivo: ID pubblicità, indirizzo IP, informazioni tecniche sul dispositivo e
+interazioni con gli annunci, secondo le
+<a href="https://policies.google.com/technologies/ads">norme pubblicitarie di Google</a>.</p>
+<p><strong>Consenso.</strong> Nello Spazio economico europeo, nel Regno Unito e in Svizzera, prima di qualsiasi annuncio
+viene mostrato un modulo di consenso certificato (Google UMP). Puoi rifiutare gli annunci personalizzati; in tal caso
+possono essere mostrati annunci non personalizzati. Puoi cambiare la tua scelta in qualsiasi momento nel gioco:
+<strong>Impostazioni → Scelte privacy annunci</strong>. Puoi anche reimpostare o eliminare l’ID pubblicità nelle
+impostazioni del telefono (Google → Annunci).</p>
+<p><strong>Acquisto in-app.</strong> L’acquisto «Rimuovi pubblicità» è gestito da Google Play. L’editore non riceve i
+tuoi dati di pagamento né il tuo indirizzo e-mail; il gioco salva solo sul dispositivo che l’acquisto è stato fatto.</p>
+<p>Il gioco non include altri strumenti di statistica o tracciamento.</p>
 
 <h2>Link esterni</h2>
 <p>I link del gioco verso queste pagine si aprono nel tuo browser. GitHub Pages, che ospita queste pagine, può registrare
